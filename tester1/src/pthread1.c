@@ -1,3 +1,8 @@
+/*
+ *	@author : Aziz Amerul Faozi
+ *	@desk	: this code test pthread
+ * */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<pthread.h>
