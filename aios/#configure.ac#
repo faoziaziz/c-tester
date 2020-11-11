@@ -64,18 +64,6 @@ esac
 AC_CACHE_SAVE
 
 ## TODO:2003 Add the dependencies of your project here.
-AC_SEARCH_LIBS([curl_easy_setopt], [curl], [], [
-  AC_MSG_ERROR([libcurlnya belum diinstall])
-])
-
-AC_SEARCH_LIBS([pthread_join], [pthread], [], [
-  AC_MSG_ERROR([pthread belum diinstall])
-])
-
-AC_SEARCH_LIBS([sqlite3_libversion], [sqlite3], [], [
-  AC_MSG_ERROR([sqlite3 belum diinstall])
-])
-
 ## TODO:2003 The use of "jansson" here is not mandatory. You don't have
 ## TODO:2003 to keep it.
 
